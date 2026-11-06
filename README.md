@@ -3,6 +3,7 @@
 ```
 brew uninstall --zap --cask logi-options+  # if cask previously installed
 brew tap majcn/tap
+brew trust --cask majcn/tap/offline-logi-options+
 brew install --cask offline-logi-options+
 
 # to update
